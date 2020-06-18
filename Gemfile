@@ -26,4 +26,6 @@ gem 'bootstrap', '~> 4.5.0'
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13.0'
 gem 'simple_form'
+gem 'image_processing'
+gem 'mini_magick'
 
