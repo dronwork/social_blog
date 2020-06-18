@@ -1,4 +1,8 @@
 .jumbotron
   %h1 Ruby on Rails
-
   %button.btn.btn-primary{:type => "button"} Главный
+.fa.fa-at
+  = link_to 'INDEX', root_path
+  = link_to root_path, class: 'btn btn-primary' do
+    .fa.fa-home
+      Home
