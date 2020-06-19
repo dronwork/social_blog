@@ -2,6 +2,8 @@
 .card
   .card-header
     = link_to post.title, post
+    .card-subtitle
+    = post.user.email
   /=post.title
   .card-body
     =post.content
@@ -17,6 +19,8 @@
       = link_to post, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger' do
         .fa.fa-trash
           DELETE
+
+
 
 %p
 %hr
